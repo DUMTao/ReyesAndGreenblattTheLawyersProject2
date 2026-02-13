@@ -59,10 +59,27 @@ public class SaddlebagBalancer {
 
 
     //Takes a list of integers that if the weight of the packages that returns the solution list
-    public static List<Integer> getPartition(List<Integer> packageWeights){
-
-    }
-
+    /*
+    * public static List<Integer> getPartition(List<Integer> packageWeights){
+    *   int n = weights.size or .length
+    *       Base case if the list is empty
+    *   if (n == 0){
+    *       return empty list;
+    *   }
+    *   int extra = weightsList.toArray(new int[0])
+    *   double sum = sum of weights
+    *       Base case if the total is odd then stop the process early
+    *   if (sum % 2 != 0){
+    *       return "hey you can't balance this twin you better walk ✌️😭"
+    *   }
+    *
+    *   target = sum / 2;
+    *
+    *   //<Insert thread knowledge here>
+    *
+    * }
+    *
+    */
     public static String getAuthors(){
         return "Kamil Reyes and Matt Greenblatt";
     }
