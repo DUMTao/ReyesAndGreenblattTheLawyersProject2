@@ -12,9 +12,7 @@ import java.text.DecimalFormat;
  * @author Kyle Burke
  */
 
-public class SpeedGrader {
     public class SpeedGrader {
-
         //whether we're using Java's internal nanosecond timers
         private static final boolean USE_NANOS = true;
 
@@ -142,4 +140,3 @@ public class SpeedGrader {
 
         }
     }
-}
